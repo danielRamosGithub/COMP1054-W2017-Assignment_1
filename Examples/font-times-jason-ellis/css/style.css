@@ -1,0 +1,201 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: #ddd;
+	font: 100% Times New Roman, Times, serif; 
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+a:link{
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #999;
+}
+
+a:active{
+	text-decoration: none;
+	color: #fff;
+}
+
+a:visited{
+	text-decoration: none;
+	color: #fff;
+}
+
+h1{
+	color: #c00;
+	background: url('../images/banner.png') no-repeat;
+	margin: 0;
+	padding: 0;
+	width: 960px;
+	height: 97px;
+	text-indent: -999px;
+	overflow: hidden;
+}
+
+h2{
+}
+
+blockquote{
+	font-size: 3.8em;
+	margin: 0;
+}
+
+p.introduction:first-letter {
+ font-size : 300%;
+ font-weight : bold;
+ float : left;
+ width : 1em;
+ color : #c00;
+ }
+
+div#wrapper{
+	width: 960px;
+	margin: 0 auto;
+	background: #fef9e6;
+	/*background: url('../images/crumpled-paper.jpg') no-repeat;*/
+}
+
+div#header{
+	width: 960px;
+	margin: 0;
+	padding: 0;
+}
+
+div#header p#date{
+	width: 950px;
+	background: #eee;
+	font-size: 0.9em;
+	font-weight: bold;
+	margin: 0;
+	padding: 5px;
+}
+
+div#nav{
+	width: 960px;
+	margin-top: -15px;
+	padding: 0;
+	background: #333;
+	color: #fff;
+}
+
+div#nav  ul{
+	list-style: none;
+	text-align: center;
+	padding: 5px;
+}
+
+div#nav  ul li{
+	display: inline;
+	padding: 0 20px;
+}
+
+div#left-column{
+	width: 130px;
+	float: left;
+	border-right: 1px solid #999;
+	padding: 5px;
+}
+
+div#left-column p#p1{
+	font-size: 0.75em;
+}
+
+div#left-column p#p2{
+	font-size: 1em;
+}
+
+div#left-column p#p3{
+	font-size: 1.25em;
+}
+
+div#left-column p#p4{
+	font-size: 1.5em;
+}
+
+div#left-column h2{
+	background: #c00;
+	color: #fff;
+	font-size: 0.85em;
+	padding: 0.25em;
+}
+
+div#content{
+	width: 480px;
+	float: left;
+	padding: 5px;
+}
+
+div#content h2{
+	border-bottom: 1px solid #333;
+	margin-top: 0.25em;
+	padding-bottom: 0.25em;
+}
+
+div#right-column{
+	width: 315px;
+	float: left;
+	border-left: 1px solid #999;
+	padding: 5px;
+}
+
+div#right-column h2{
+	margin-top: 0.25em;
+	font-size: 1.25em;
+}
+
+div#right-column p{
+	border-bottom: 1px dashed #333;
+	padding-bottom: 0.5em;
+}
+
+div#right-column p#para1{
+	font-size: 0.75em;
+}
+
+div#right-column p#para2{
+	font-size: 1em;
+}
+
+div#right-column p#para3{
+	font-size: 1.25em;
+}
+
+div#right-column p#para4{
+	font-size: 1.5em;
+}
+
+div#right-column p#para5{
+	font-size: 1.75em;
+}
+
+div#right-column p#para6{
+	font-size: 2em;
+}
+
+div#right-column p#para7{
+	font-size: 2.5em;
+}
+
+div#footer{
+	width: 960px;
+	clear: both;
+	background: #eee;
+	color: #fff;
+}
+
+div#footer p{
+	background: #333;
+	padding: 5px;
+}

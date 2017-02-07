@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	padding: 0 0 0 0;
+	margin:0 0 0 0;
+	font-family: courier;
+}
+	
+.swap{
+		display:none;
+}/*swapping out my link text*/
+
+#content{
+	float:right;
+	margin-left:30px;
+	width:1024px;
+	height:768px;
+	background:#FFF url("../img/courier_back.jpg") no-repeat bottom right;
+	}
+	
+#heading{
+	display:block;
+	float:right;
+	text-align:right;
+	margin:100px 22px 0 0;}
+#heading h3{
+	margin:0px 0 0px 0;}
+#nav{
+	float:left;
+	width: 200px;
+	margin:110px 0 0 306px;}
+#nav ul{
+	height:200px;
+	width:175px;
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+#nav li{
+	height:53px;
+	width:175px;
+	margin:5px 5px 0 0;
+	padding:0;
+}
+#nav .refb{
+	margin-left:20px;
+}
+/*--------------------home---------------------*/
+
+
+.home{background:url(../img/home.png);}
+
+.home:link{
+		background: url(../img/home.png) no-repeat;
+}
+.home:visited{
+		background: url(../img/home.png) no-repeat;
+}
+
+.home:active{
+		background: url(../img/homeon.png) no-repeat;
+}
+
+.home:hover{
+		background: url(../img/homeon.png) no-repeat;
+}
+/*-------------- anatomy------------------*/
+.anab{background:url(../img/anatomy.png);}
+
+.anab:link{
+		background: url(../img/anatomy.png) no-repeat;
+}
+.anab:visited{
+		background: url(../img/anatomy.png) no-repeat;
+}
+
+.anab:active{
+		background: url(../img/anatomyon.png) no-repeat;
+}
+
+.anab:hover{
+		background: url(../img/anatomyon.png) no-repeat;
+}
+/*-------------- reference------------------*/
+.refb{background:url(../img/ref.png);}
+
+
+.refb:link{
+		background: url(../img/ref.png) no-repeat;
+}
+.refb:visited{
+		background:url(../img/ref.png) no-repeat;
+}
+
+.refb:active{
+		background: url(../img/refon.png) no-repeat;
+}
+
+.refb:hover{
+		background: url(../img/refon.png) no-repeat;
+}
+
+/*-------------------- "On page" navigation---------------------*/
+
+#p1 .home a{background:url(../img/homeon.png) no-repeat;}
+#p2 .anab a{background:url(../img/anatomyon.png) no-repeat;}
+#p3 .refb a{background:url(../img/refon.png);}
+
+#nav li a{
+	display:block;
+	height:53px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#crit{
+	text-decoration:none;
+	color: #000;
+	font-size: xx-large;}
+#info{
+	float:right;
+	margin:56px 17px 0 0;
+	width:400px;}
+p{
+		font-size:small;
+		text-align:right;
+		line-height:1.2em;}
+		
+#abc{
+	font-size:x-large;}
+#img{
+	float:right;
+	margin:60px 17px 0 0;
+	width:400px;}
+

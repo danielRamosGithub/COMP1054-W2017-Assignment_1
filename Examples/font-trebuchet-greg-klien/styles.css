@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Richard Rutter is Production Director at Clearleft, font sizing based on his article
+@ http://clagnut.com/blog/348/ */
+body {
+	font: 62.5%/1.4 Helvetica, Arial, sans-serif;
+	color: #333333;
+	margin: 0;
+	padding: 0;
+}
+div#container {
+	width: 800px;
+	margin: 0 auto;
+	padding: 10px;
+}
+div#header {
+	background-color: #E0F2FF;
+	padding-bottom: 0.5em;
+	border-bottom: 0.2em solid #CCCCCC;
+}
+div#header h1 {
+	height: 166px;
+	width: 131px;
+	background: transparent url(images/truetype_title.gif) top left no-repeat;
+	text-indent: -9999px;
+}
+div#header h2 {
+	font: 4.0em "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin-left: 1.0em;
+}
+div#content {
+	font-size: 1.6em;
+	width: 500px;
+	float: left;
+	padding-left: 1.0em;
+}
+div#content h3 {
+	font: 1.8em "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #8ECFFF;
+}
+div#content p cite {
+	font-size: 1.0em;
+}
+div#content p em {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: normal;
+}
+div#aside {
+	font-size: 1.0em;
+	width: 245px;
+	background-color: #F2F8FF;
+	float: right;
+	padding: 0.5em 1.5em 0.5em 0;
+}
+thead th {
+	font-size: 1.4em;
+}
+tfoot td {
+	font-size: 0.9em;
+	text-align: right;
+	vertical-align: bottom;
+	color: #AAAAAA;
+	padding-top: 2.0em;
+}
+td.topic {
+	width: 150px;
+	text-align: right;
+	vertical-align: top;
+	padding-right: 0.5em;
+	color: #AAAAAA;
+}
+div#footer {
+	clear: both;
+	padding-top: 5.0em;
+}
+div#footer p.dropcase {
+	font: bold 2.4em "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+div#footer p.dropcase:first-letter {
+	font-size: 3.0em;
+	font-weight : bold;
+	float : left;
+	width : 1em;
+	color : #8ECFFF;
+}
